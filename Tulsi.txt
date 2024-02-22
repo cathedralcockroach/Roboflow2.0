@@ -1,2 +1,0 @@
-I am the creator of this text file.
-This is the main branch.
