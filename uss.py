@@ -8,14 +8,6 @@ from skimage.restoration import denoise_tv_chambolle
 from skimage.transform import resize
 
 
-
-
-
-
-
-
-
-
 def save_processed_image(processed_image, output_dir, idx, function_name):
     output_filename = f"{output_dir}/processed_image_{idx}_{function_name}.jpg"
     cv2.imwrite(output_filename, processed_image.astype(np.uint8))
