@@ -10,6 +10,11 @@ python -m venv myenv
 ```
 myenv/Scripts/Activate.ps1 
 ```
+```
+source myenv/bin/activate (mac)
+myenv/Scripts/activate.bat (cmd)
+myenv/Scripts/Activate.ps1 (powershell)
+```
 ## Install the dependencies:- 
 ```
 pip install -r requirements.txt 
@@ -17,39 +22,23 @@ pip install -r requirements.txt
 ## Now while running the ipynb file select the kernal as the enviroment name
 ## for this case it will be myenv.
 
-<!-- Set the path for test and train folders. -->
-
-<!-- Follow the steps in cmd for applying  -->
-
-
-
-
-
-
-# sematic-mask-to-coco-json
-
-## Clone or download the repo and to start the venv follow the steps below:
-
-#### step 1: initate the vitual environment.
-```
-python -m venv myenv
-```
-#### step 2: activate the vitual environment.
-```
-source myenv/bin/activate (mac)
-myenv/Scripts/activate.bat (cmd)
-myenv/Scripts/Activate.ps1 (powershell)
-```
-#### step 3: install the dependencies.
-```
-pip install -r requirements.txt 
-```
-#### OR
-```
-pip install numpy pillow scikit-image shapely
-```
 #### To close the virtual environment:
 ```
 deactivate
 ```
+<!-- Set the path for test and train folders. -->
+
+<!-- Follow the steps in cmd for applying  -->
+
+## bash command for installing yolov5 
+```
+pip install torch torchvision
+git clone https://github.com/ultralytics/yolov5.git
+```
+
+
+
+
+
+
 
