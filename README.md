@@ -36,6 +36,11 @@ pip install torch torchvision
 git clone https://github.com/ultralytics/yolov5.git
 ```
 
+## for using Kohonen segmentation
+```
+pip install kohonen
+```
+
 
 
 
